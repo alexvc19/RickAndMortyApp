@@ -6,3 +6,6 @@
 //
 
 import Foundation
+class ConstansUrl{
+    static let urlCharacters: String = "https://rickandmortyapi.com/api/character"
+}

@@ -13,6 +13,31 @@
 		BC5130932BEC26DF00068769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5130912BEC26DF00068769 /* Main.storyboard */; };
 		BC5130952BEC26E100068769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5130942BEC26E100068769 /* Assets.xcassets */; };
 		BC5130982BEC26E100068769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5130962BEC26E100068769 /* LaunchScreen.storyboard */; };
+		BC5130B62BEC294A00068769 /* RMCharacterListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5130B02BEC294A00068769 /* RMCharacterListVC.xib */; };
+		BC5130B72BEC294A00068769 /* RMCharacterListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130B12BEC294A00068769 /* RMCharacterListPresenter.swift */; };
+		BC5130B82BEC294A00068769 /* RMCharacterListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130B22BEC294A00068769 /* RMCharacterListRouter.swift */; };
+		BC5130B92BEC294A00068769 /* RMCharacterListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130B32BEC294A00068769 /* RMCharacterListInteractor.swift */; };
+		BC5130BA2BEC294A00068769 /* RMCharacterListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130B42BEC294A00068769 /* RMCharacterListProtocol.swift */; };
+		BC5130BB2BEC294A00068769 /* RMCharacterListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130B52BEC294A00068769 /* RMCharacterListVC.swift */; };
+		BC5130C42BEC2E4900068769 /* RMCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130C22BEC2E4900068769 /* RMCharacterTableViewCell.swift */; };
+		BC5130C52BEC2E4900068769 /* RMCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5130C32BEC2E4900068769 /* RMCharacterTableViewCell.xib */; };
+		BC5130C82BEC2EBC00068769 /* CharacterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130C72BEC2EBC00068769 /* CharacterEntity.swift */; };
+		BC5130CA2BEC2ED300068769 /* CharacterListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130C92BEC2ED300068769 /* CharacterListEntity.swift */; };
+		BC5130CC2BEC2F7700068769 /* PaginatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130CB2BEC2F7700068769 /* PaginatorEntity.swift */; };
+		BC5130CE2BEC2FD600068769 /* OriginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130CD2BEC2FD600068769 /* OriginEntity.swift */; };
+		BC5130D02BEC2FE100068769 /* CharacterLocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130CF2BEC2FE100068769 /* CharacterLocationEntity.swift */; };
+		BC5130D52BEC3E6800068769 /* RMCharacterListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130D42BEC3E6800068769 /* RMCharacterListManager.swift */; };
+		BC5130D72BEC3FC500068769 /* ClientHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130D62BEC3FC500068769 /* ClientHttp.swift */; };
+		BC5130D92BEC3FEC00068769 /* ClientHttpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130D82BEC3FEC00068769 /* ClientHttpProtocol.swift */; };
+		BC5130DB2BEC41E500068769 /* ConstansUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130DA2BEC41E500068769 /* ConstansUrl.swift */; };
+		BC5130E32BED2DE000068769 /* RMCharacterDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5130DD2BED2DE000068769 /* RMCharacterDetailVC.xib */; };
+		BC5130E42BED2DE000068769 /* RMCharacterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130DE2BED2DE000068769 /* RMCharacterDetailPresenter.swift */; };
+		BC5130E52BED2DE000068769 /* RMCharacterDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130DF2BED2DE000068769 /* RMCharacterDetailRouter.swift */; };
+		BC5130E62BED2DE000068769 /* RMCharacterDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130E02BED2DE000068769 /* RMCharacterDetailInteractor.swift */; };
+		BC5130E72BED2DE000068769 /* RMCharacterDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130E12BED2DE000068769 /* RMCharacterDetailProtocol.swift */; };
+		BC5130E82BED2DE000068769 /* RMCharacterDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130E22BED2DE000068769 /* RMCharacterDetailVC.swift */; };
+		BC5130EF2BED38FC00068769 /* RMCharacterDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130EE2BED38FC00068769 /* RMCharacterDetailManager.swift */; };
+		BC5130F22BED4B0500068769 /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5130F12BED4B0500068769 /* LocationEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +49,31 @@
 		BC5130942BEC26E100068769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5130972BEC26E100068769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5130992BEC26E100068769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5130B02BEC294A00068769 /* RMCharacterListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMCharacterListVC.xib; sourceTree = "<group>"; };
+		BC5130B12BEC294A00068769 /* RMCharacterListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListPresenter.swift; sourceTree = "<group>"; };
+		BC5130B22BEC294A00068769 /* RMCharacterListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListRouter.swift; sourceTree = "<group>"; };
+		BC5130B32BEC294A00068769 /* RMCharacterListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListInteractor.swift; sourceTree = "<group>"; };
+		BC5130B42BEC294A00068769 /* RMCharacterListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListProtocol.swift; sourceTree = "<group>"; };
+		BC5130B52BEC294A00068769 /* RMCharacterListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListVC.swift; sourceTree = "<group>"; };
+		BC5130C22BEC2E4900068769 /* RMCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		BC5130C32BEC2E4900068769 /* RMCharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		BC5130C72BEC2EBC00068769 /* CharacterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterEntity.swift; sourceTree = "<group>"; };
+		BC5130C92BEC2ED300068769 /* CharacterListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListEntity.swift; sourceTree = "<group>"; };
+		BC5130CB2BEC2F7700068769 /* PaginatorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatorEntity.swift; sourceTree = "<group>"; };
+		BC5130CD2BEC2FD600068769 /* OriginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginEntity.swift; sourceTree = "<group>"; };
+		BC5130CF2BEC2FE100068769 /* CharacterLocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterLocationEntity.swift; sourceTree = "<group>"; };
+		BC5130D42BEC3E6800068769 /* RMCharacterListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListManager.swift; sourceTree = "<group>"; };
+		BC5130D62BEC3FC500068769 /* ClientHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHttp.swift; sourceTree = "<group>"; };
+		BC5130D82BEC3FEC00068769 /* ClientHttpProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHttpProtocol.swift; sourceTree = "<group>"; };
+		BC5130DA2BEC41E500068769 /* ConstansUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstansUrl.swift; sourceTree = "<group>"; };
+		BC5130DD2BED2DE000068769 /* RMCharacterDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMCharacterDetailVC.xib; sourceTree = "<group>"; };
+		BC5130DE2BED2DE000068769 /* RMCharacterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailPresenter.swift; sourceTree = "<group>"; };
+		BC5130DF2BED2DE000068769 /* RMCharacterDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailRouter.swift; sourceTree = "<group>"; };
+		BC5130E02BED2DE000068769 /* RMCharacterDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailInteractor.swift; sourceTree = "<group>"; };
+		BC5130E12BED2DE000068769 /* RMCharacterDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailProtocol.swift; sourceTree = "<group>"; };
+		BC5130E22BED2DE000068769 /* RMCharacterDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailVC.swift; sourceTree = "<group>"; };
+		BC5130EE2BED38FC00068769 /* RMCharacterDetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailManager.swift; sourceTree = "<group>"; };
+		BC5130F12BED4B0500068769 /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,10 @@
 		BC51308A2BEC26DF00068769 /* RickAndMortyApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC5130DC2BED2DA800068769 /* CharacterDetail */,
+				BC5130AF2BEC291B00068769 /* CharacterList */,
+				BC5130AE2BEC279400068769 /* Network */,
+				BC5130AC2BEC274900068769 /* Constants */,
 				BC51308B2BEC26DF00068769 /* AppDelegate.swift */,
 				BC51308D2BEC26DF00068769 /* SceneDelegate.swift */,
 				BC51308F2BEC26DF00068769 /* ViewController.swift */,
@@ -65,6 +119,179 @@
 				BC5130992BEC26E100068769 /* Info.plist */,
 			);
 			path = RickAndMortyApp;
+			sourceTree = "<group>";
+		};
+		BC5130AC2BEC274900068769 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130DA2BEC41E500068769 /* ConstansUrl.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BC5130AE2BEC279400068769 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130D62BEC3FC500068769 /* ClientHttp.swift */,
+				BC5130D82BEC3FEC00068769 /* ClientHttpProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BC5130AF2BEC291B00068769 /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130D32BEC3E4800068769 /* Manager */,
+				BC5130C62BEC2E5700068769 /* Entity */,
+				BC5130C02BEC29EA00068769 /* Protocol */,
+				BC5130BF2BEC29DD00068769 /* Presenter */,
+				BC5130BE2BEC29D100068769 /* Interactor */,
+				BC5130BD2BEC29C700068769 /* Router */,
+				BC5130BC2BEC29B900068769 /* View */,
+			);
+			path = CharacterList;
+			sourceTree = "<group>";
+		};
+		BC5130BC2BEC29B900068769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130C12BEC2E2100068769 /* TableCell */,
+				BC5130B52BEC294A00068769 /* RMCharacterListVC.swift */,
+				BC5130B02BEC294A00068769 /* RMCharacterListVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5130BD2BEC29C700068769 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130B22BEC294A00068769 /* RMCharacterListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BC5130BE2BEC29D100068769 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130B32BEC294A00068769 /* RMCharacterListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BC5130BF2BEC29DD00068769 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130B12BEC294A00068769 /* RMCharacterListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BC5130C02BEC29EA00068769 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130B42BEC294A00068769 /* RMCharacterListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BC5130C12BEC2E2100068769 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130C22BEC2E4900068769 /* RMCharacterTableViewCell.swift */,
+				BC5130C32BEC2E4900068769 /* RMCharacterTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		BC5130C62BEC2E5700068769 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130C72BEC2EBC00068769 /* CharacterEntity.swift */,
+				BC5130C92BEC2ED300068769 /* CharacterListEntity.swift */,
+				BC5130CB2BEC2F7700068769 /* PaginatorEntity.swift */,
+				BC5130CD2BEC2FD600068769 /* OriginEntity.swift */,
+				BC5130CF2BEC2FE100068769 /* CharacterLocationEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BC5130D32BEC3E4800068769 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130D42BEC3E6800068769 /* RMCharacterListManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BC5130DC2BED2DA800068769 /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130F32BED4B0900068769 /* Entity */,
+				BC5130F02BED394600068769 /* Manager */,
+				BC5130ED2BED2E1700068769 /* View */,
+				BC5130EC2BED2E0800068769 /* Router */,
+				BC5130EB2BED2DFF00068769 /* Presenter */,
+				BC5130EA2BED2DF200068769 /* Interactor */,
+				BC5130E92BED2DE900068769 /* Protocol */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		BC5130E92BED2DE900068769 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130E12BED2DE000068769 /* RMCharacterDetailProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BC5130EA2BED2DF200068769 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130E02BED2DE000068769 /* RMCharacterDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BC5130EB2BED2DFF00068769 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130DE2BED2DE000068769 /* RMCharacterDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BC5130EC2BED2E0800068769 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130DF2BED2DE000068769 /* RMCharacterDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BC5130ED2BED2E1700068769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130E22BED2DE000068769 /* RMCharacterDetailVC.swift */,
+				BC5130DD2BED2DE000068769 /* RMCharacterDetailVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5130F02BED394600068769 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130EE2BED38FC00068769 /* RMCharacterDetailManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BC5130F32BED4B0900068769 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BC5130F12BED4B0500068769 /* LocationEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +354,10 @@
 			files = (
 				BC5130982BEC26E100068769 /* LaunchScreen.storyboard in Resources */,
 				BC5130952BEC26E100068769 /* Assets.xcassets in Resources */,
+				BC5130C52BEC2E4900068769 /* RMCharacterTableViewCell.xib in Resources */,
 				BC5130932BEC26DF00068769 /* Main.storyboard in Resources */,
+				BC5130E32BED2DE000068769 /* RMCharacterDetailVC.xib in Resources */,
+				BC5130B62BEC294A00068769 /* RMCharacterListVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +368,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5130BA2BEC294A00068769 /* RMCharacterListProtocol.swift in Sources */,
 				BC5130902BEC26DF00068769 /* ViewController.swift in Sources */,
+				BC5130D92BEC3FEC00068769 /* ClientHttpProtocol.swift in Sources */,
+				BC5130EF2BED38FC00068769 /* RMCharacterDetailManager.swift in Sources */,
+				BC5130D52BEC3E6800068769 /* RMCharacterListManager.swift in Sources */,
+				BC5130E52BED2DE000068769 /* RMCharacterDetailRouter.swift in Sources */,
+				BC5130CC2BEC2F7700068769 /* PaginatorEntity.swift in Sources */,
+				BC5130C42BEC2E4900068769 /* RMCharacterTableViewCell.swift in Sources */,
+				BC5130B92BEC294A00068769 /* RMCharacterListInteractor.swift in Sources */,
+				BC5130E42BED2DE000068769 /* RMCharacterDetailPresenter.swift in Sources */,
+				BC5130E72BED2DE000068769 /* RMCharacterDetailProtocol.swift in Sources */,
+				BC5130BB2BEC294A00068769 /* RMCharacterListVC.swift in Sources */,
+				BC5130DB2BEC41E500068769 /* ConstansUrl.swift in Sources */,
+				BC5130F22BED4B0500068769 /* LocationEntity.swift in Sources */,
+				BC5130CA2BEC2ED300068769 /* CharacterListEntity.swift in Sources */,
+				BC5130B82BEC294A00068769 /* RMCharacterListRouter.swift in Sources */,
+				BC5130D72BEC3FC500068769 /* ClientHttp.swift in Sources */,
+				BC5130E82BED2DE000068769 /* RMCharacterDetailVC.swift in Sources */,
+				BC5130B72BEC294A00068769 /* RMCharacterListPresenter.swift in Sources */,
+				BC5130D02BEC2FE100068769 /* CharacterLocationEntity.swift in Sources */,
+				BC5130C82BEC2EBC00068769 /* CharacterEntity.swift in Sources */,
+				BC5130E62BED2DE000068769 /* RMCharacterDetailInteractor.swift in Sources */,
+				BC5130CE2BEC2FD600068769 /* OriginEntity.swift in Sources */,
 				BC51308C2BEC26DF00068769 /* AppDelegate.swift in Sources */,
 				BC51308E2BEC26DF00068769 /* SceneDelegate.swift in Sources */,
 			);
